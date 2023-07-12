@@ -75,13 +75,22 @@ nav li a{
     color: #fff;
 }
 
-aside input {
+aside form{
+    display: flex;
+    flex-direction: column;
+}
+
+aside input, aside textarea{
     width: 272px;
-    height: 100%;
     padding: 14px;
     background-color: #2D415B;
     color: #fff;
     border: none;
     border-radius: 4px;
     margin: 15px 0;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
