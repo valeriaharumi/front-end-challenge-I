@@ -51,6 +51,10 @@ header input{
     color: #fff;
 }
 
+nav{
+    width: 317px;
+}
+
 nav li{
     display: flex;
     flex-direction: row;
@@ -73,6 +77,35 @@ nav li span{
 nav li a{ 
     text-decoration: none;
     color: #fff;
+}
+
+section{
+    width: 752px;
+}
+
+section img{
+    position: relative;
+    top: 65px;
+    left: 55px;
+}
+
+section textarea{
+    width: 100%;
+    border-radius: 8px;
+    height: 380px;
+    border: 32px solid #6BD1FF;
+    background: black;
+    padding: 16px;
+}
+
+section input[type=button]{
+    width: 100%;
+    padding: 16px 0;
+    border-radius: 8px;
+    background: rgba(80, 129, 251, 0.08);
+    color: white;
+    margin-top: 15px;
+    border: none;
 }
 
 aside form{
